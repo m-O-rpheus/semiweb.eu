@@ -1,5 +1,6 @@
 
 
+// Registriert mehrere Events (Click, Touch usw) auf dem Element selbst, oder einem Kind davon
 ['click','touchstart'].forEach(function(evt) {
 
     swapinode().addEventListener(evt, function(e) {
