@@ -1,3 +1,5 @@
+
+
 // Registriert ein Click Event auf das Element selbst, oder ein Kind davon
 swapinode().addEventListener('click', function(e) {
 
@@ -8,3 +10,5 @@ swapinode().addEventListener('click', function(e) {
         console.log(sel.dataset.example);
     }
 });
+
+
